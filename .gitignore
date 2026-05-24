@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+.venv/
+venv/
+
+# Data and cache
+data/
+datasets/
+cache/
+*.parquet
+*.csv
+*.tsv
+schema.json
+
+# Training outputs
+ckpt/
+checkpoints/
+events/
+logs/
+log/
+runs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Platform/local metadata
+.taiji_run.json
+train_config.json
